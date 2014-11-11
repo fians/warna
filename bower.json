@@ -1,0 +1,27 @@
+{
+  "name": "warna",
+  "main": "warna.js",
+  "version": "0.2.2",
+  "homepage": "https://github.com/publicis-indonesia/warna",
+  "authors": [
+    "Alfiana E. Sibuea <alfian.sibuea@gmail.com>"
+  ],
+  "description": "Color utility library in Javascript",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "color",
+    "utility",
+    "gradient"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
