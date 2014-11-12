@@ -4,7 +4,7 @@
   "description": "Color utility library in Javascript",
   "repository": {
     "type": "git",
-    "url": "https://github.com/publicis-indonesia/warna.git"
+    "url": "https://github.com/onebytelabs/warna.git"
   },
   "keywords": [
     "color",
@@ -13,11 +13,11 @@
     "color-converter"
   ],
   "author": "Alfiana E. Sibuea <alfian.sibuea@gmail.com>",
-  "license": "BSD",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/publicis-indonesia/warna/issues"
+    "url": "https://github.com/onebytelabs/warna/issues"
   },
-  "homepage": "https://github.com/publicis-indonesia/warna",
+  "homepage": "https://github.com/onebytelabs/warna",
   "main": "warna.js",
   "scripts": {
     "test": "mocha"
