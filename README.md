@@ -12,12 +12,6 @@ You can install Warna via npm,
 npm install warna
 ```
 
-or via Bower,
-
-```
-bower install warna
-```
-
 or download latest version from [Github](https://github.com/onebytelabs/warna/releases)
 
 ## Getting Started

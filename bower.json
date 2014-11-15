@@ -1,8 +1,8 @@
 {
   "name": "warna",
   "main": "warna.js",
-  "version": "0.2.2",
-  "homepage": "https://github.com/publicis-indonesia/warna",
+  "version": "0.2.3",
+  "homepage": "https://github.com/onebytelabs/warna",
   "authors": [
     "Alfiana E. Sibuea <alfian.sibuea@gmail.com>"
   ],
@@ -16,7 +16,7 @@
     "utility",
     "gradient"
   ],
-  "license": "BSD",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",

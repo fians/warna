@@ -1,11 +1,7 @@
 
 /*!
- * Warna v0.2.2
- * https://github.com/publicis-indonesia/warna/
- *
- * Copyright 2014 Publicis Metro Indonesia, PT. and other contributors
- * Released under the BSD license
- * https://github.com/publicis-indonesia/warna/blob/master/LICENSE
+ * Warna v0.2.3
+ * https://github.com/onebytelabs/warna/
  */
 
 (function (undefined) {
