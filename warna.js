@@ -142,9 +142,9 @@
 		} else if (red === max) {
 			hue = 60.0 * (green - blue) / dif;
 		} else if (green === max) {
-			hue = 120.0 + 60.0 * (rgb.b - rgb.r) / dif;
+			hue = 120.0 + 60.0 * (blue - red) / dif;
 		} else if (blue === max) {
-			hue = 240.0 + 60.0 * (rgb.r - rgb.g) / dif;
+			hue = 240.0 + 60.0 * (red - green) / dif;
 		}
 
 		if (hue < 0.0) {
