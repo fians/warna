@@ -63,12 +63,14 @@ __Get gradient color position or color slices.__
 
 ```javascript
 // Get color in center of white-black gradient
-var color = warna.gradient('#ffffff', '#000000').getPosition(0.5).hex;
+var gradient  = new warna.Gradient('#ffffff', '#000000')
+var color     = gradient.getPosition(0.5).hex;
 console.log(color); 
 // will print '#7f7f7f'
 
 // Get 3 color slices in red-blue gradient
-var color = warna.gradient('#ff0000', '#0000ff').getSlices(3, 'hex');
+var gradient  = warna.Gradient('#ff0000', '#0000ff')
+var color     = gradient.getSlices(3, 'hex');
 console.log(color);
 
 //  will print
@@ -121,7 +123,7 @@ warna.parse({hue: 0, saturation: 1, luminosity: 0.5}); // HSL object
 
 ```
 
-### gradient(begin, end)
+### Gradient(begin, end)
 
 Set gradient color object which can be chained with other gradient utility function like `getPosition()` or `getSlices()`.
 
@@ -131,7 +133,7 @@ _Arguments:_
 * `end` - _(mixed)_ Ending color value. It can be a HEX color string, RGB object or RGB array.
 
 
-### getPosition(pos)
+#### getPosition(pos)
 
 Get color value on gradient based on their position and return Warna object.
 
@@ -174,7 +176,7 @@ gradient.getPosition(0.5);
 */
 ```
 
-### getSlices(slice, type)
+#### getSlices(slice, type)
 
 Get color slices of a gradient and return array of Warna object based on number slices you want to get. Slice should be more than `2`, if you want to get other color value other than start color and ending color.
 
@@ -187,7 +189,8 @@ _Example:_
 
 ```javascript
 // Getting 3 color slices of black-white gradient
-warna.gradient('#ffffff', '#000000').getSlices(3, 'hex');
+var gradient = new warna.Gradient('#ffffff', '#000000')
+gradient.getSlices(3, 'hex');
 
 //  Return
 //  [ '#ffffff', '#7f7f7f', '#000000']
