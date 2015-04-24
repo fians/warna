@@ -1,5 +1,7 @@
 machine:
   pre: 
+    - wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb 
+    - sudo dpkg -i google-chrome-stable_current_i386.deb
     - curl https://raw.githubusercontent.com/creationix/nvm/v0.24.1/install.sh | bash
     - nvm install 0.10.38
     - nvm install 0.12.2
