@@ -1,0 +1,9 @@
+machine:
+  pre: 
+    - curl https://raw.githubusercontent.com/creationix/nvm/v0.24.1/install.sh | bash
+    - nvm install 0.8.20
+
+dependencies:
+  overide:
+    - nvm use 0.8.20 && npm install
+    
