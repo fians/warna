@@ -4,6 +4,6 @@ machine:
     - nvm install 0.8.20
 
 dependencies:
-  overide:
+  override:
     - nvm use 0.8.20 && npm install
     
