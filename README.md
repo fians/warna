@@ -1,5 +1,7 @@
 # Warna
 
+[![Circle CI](https://circleci.com/gh/fians/warna.svg?style=svg)](https://circleci.com/gh/fians/warna)
+
 Warna is color utility library written in Javascript
 to help you parse, convert, or manipulate colors.
 It can works on browser or Node.js as npm modules.
