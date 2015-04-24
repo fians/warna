@@ -6,6 +6,10 @@ machine:
 
 dependencies:
   override:
-    - nvm use 0.10.38 && npm install
-    - nvm use 0.12.2 && npm install
+    - npm install
+    
+test:
+  override:
+    - npm use 0.10.38 && npm test
+    - npm use 0.12.2 && npm test
     
