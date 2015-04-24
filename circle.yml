@@ -10,6 +10,6 @@ dependencies:
     
 test:
   override:
-    - npm use 0.10.38 && npm test
-    - npm use 0.12.2 && npm test
+    - nvm use 0.10.38 && npm test
+    - nvm use 0.12.2 && npm test
     
