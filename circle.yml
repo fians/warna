@@ -3,6 +3,7 @@ machine:
     - curl https://raw.githubusercontent.com/creationix/nvm/v0.24.1/install.sh | bash
     - nvm install 0.10.38
     - nvm install 0.12.2
+    - nvm install iojs
 
 dependencies:
   override:
@@ -12,4 +13,5 @@ test:
   override:
     - nvm use 0.10.38 && npm test
     - nvm use 0.12.2 && npm test
+    - nvm use iojs && npm test
     
